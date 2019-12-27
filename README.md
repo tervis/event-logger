@@ -17,6 +17,6 @@ Add repository to composer.json
 require
 
 ```
-composer require tervis/event-logger dev-master
+composer require tervis/event-logger
 
 ```
