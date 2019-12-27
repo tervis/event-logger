@@ -1,0 +1,7 @@
+services:
+
+    application.utils.logger.doctrine_handler:
+        class: 'App\UserActivityLogger\UserActivityLogger'
+        arguments:
+            - "@doctrine.orm.entity_manager"
+            - "%channel_name%"
