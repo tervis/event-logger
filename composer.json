@@ -1,8 +1,7 @@
 {
     "name": "tervis/event-logger",
     "description": "Monolog event database logger",
-    "type": "symfony-bundle",
-    "version": "0.0.1",
+    "type": "library",
     "license": "MIT",
     "authors": [
       {
