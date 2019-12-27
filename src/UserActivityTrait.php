@@ -43,9 +43,10 @@ trait UserActivityTrait
     protected $createdAt;
 
     /**
-     * @ORM\PrePersist
+     * UserActivityTrait constructor.
+     * @throws \Exception
      */
-    public function onPrePersist()
+    public function __construct()
     {
         $this->createdAt = new \DateTime();
     }
