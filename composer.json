@@ -2,7 +2,6 @@
     "name": "tervis/eventlogger",
     "description": "Monolog event database logger",
     "type": "symfony-bundle",
-    "version": "0.0.1",
     "license": "MIT",
     "authors": [
       {
@@ -11,36 +10,22 @@
       }
     ],
     "require": {
-        "php": "^7.2.5",
+        "php": "^7.1",
         "ext-ctype": "*",
         "ext-iconv": "*",
-        "ext-json": "*",
-        "sensio/framework-extra-bundle": "^5.5",
-        "symfony/flex": "^1.3.1",
-        "symfony/framework-bundle": "^5.0",
-        "symfony/monolog-bundle": "^3.5",
-        "symfony/yaml": "5.0.*"
+        "ext-json": "*"
     },
     "require-dev": {
         "phpunit/phpunit": "^8.5"
     },
     "autoload": {
         "psr-4": {
-            "tervis\\EventLogger\\": "src/"
+            "Tervis\\EventLoggerBundle\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "tervis\\EventLogger\\Tests\\": "tests/"
+            "Tervis\\EventLoggerBundle\\Tests\\": "tests/"
         }
-    },
-    "replace": {
-        "paragonie/random_compat": "2.*",
-        "symfony/polyfill-ctype": "*",
-        "symfony/polyfill-iconv": "*",
-        "symfony/polyfill-php72": "*",
-        "symfony/polyfill-php71": "*",
-        "symfony/polyfill-php70": "*",
-        "symfony/polyfill-php56": "*"
     }
 }

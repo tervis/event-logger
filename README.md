@@ -9,7 +9,7 @@ Add repository to composer.json
 "repositories": [
     {
         "type": "vcs",
-        "url": "https://github.com/tervis/EventLogger.git"
+        "url": "https://github.com/tervis/event-logger.git"
     }
 ]
 ```
@@ -17,6 +17,6 @@ Add repository to composer.json
 require
 
 ```
-composer require tervis/EventLogger
+composer require tervis/event-logger dev-master
 
 ```
