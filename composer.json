@@ -1,5 +1,5 @@
 {
-    "name": "tervis/eventlogger",
+    "name": "tervis/event-logger",
     "description": "Monolog event database logger",
     "type": "symfony-bundle",
     "license": "MIT",
